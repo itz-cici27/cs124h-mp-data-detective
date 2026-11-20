@@ -35,7 +35,7 @@ Clone this repo (the link will be on PrairieLearn) and open a terminal in its fo
 
 ```sh
 git clone <repo link from PrairieLearn>
-cd mp-data-detective
+cd cs124h-mp-data-detective
 ```
 
 Check your Python version:
@@ -208,7 +208,7 @@ You **can** use the videos, the [cheat sheet](docs/cheatsheet.md), the [SQLite d
 | What you see | What to do |
 | --- | --- |
 | `python: command not found` | Try `python3` instead. |
-| `Can't find the database` | Run commands from this folder, the one with `kernel_cafe.db` in it. If you just cloned, run `cd mp-data-detective` first. |
+| `Can't find the database` | Run commands from this folder, the one with `kernel_cafe.db` in it. If you just cloned, run `cd cs124h-mp-data-detective` first. |
 | `This file has no query yet` | Write your query below the comments in the case file, then save. |
 | `SQLite error: no such column` | Check the spelling against the tables above. If you joined two tables, write `orders.item_id` or use a table alias. |
 | `SQLite error: near "...": syntax error` | Look just before the word it names. Common causes: a missing comma between columns, or a missing quote around a date. |
