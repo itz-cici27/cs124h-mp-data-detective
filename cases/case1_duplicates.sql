@@ -1,0 +1,14 @@
+-- Case 1: The Double Tap (guided)
+--
+-- SYMPTOM: "Some days' revenue looks a little too high."
+--
+-- HINT: When a register is double-tapped, it saves the same order twice. Both
+-- copies have the same ordered_at, register_id, item_id, and quantity, but each
+-- copy gets its own order_id. Group by those four columns, then keep only the
+-- groups that show up more than once. (Video 2: GROUP BY and HAVING.)
+--
+-- RETURN one row per duplicated order, with exactly these columns:
+--   ordered_at, register_id, item_id, quantity, copies
+-- where copies is how many times that order appears. Use AS to name a column.
+--
+-- Write your query below this line, then run: python check.py 1

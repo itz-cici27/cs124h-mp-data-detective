@@ -1,0 +1,12 @@
+-- Case 2: Impossible Receipts (guided)
+--
+-- SYMPTOM: "A few receipts look impossible."
+--
+-- HINT: Compare each order against the café policies in the README. Which
+-- column breaks a rule? Use WHERE to keep only the rows that break it. You may
+-- need AND or OR. (Video 2: WHERE.)
+--
+-- RETURN every order that breaks the rule, with exactly these columns:
+--   order_id, quantity
+--
+-- Write your query below this line, then run: python check.py 2

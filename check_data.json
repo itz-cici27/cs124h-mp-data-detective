@@ -1,0 +1,41 @@
+{
+  "1": {
+    "columns": [
+      "ordered_at",
+      "register_id",
+      "item_id",
+      "quantity",
+      "copies"
+    ],
+    "fingerprint": "5ddfb168345665ffd84ae2e0b1252b56fa6f90db04eff6d9ae3f78b0c1091172"
+  },
+  "2": {
+    "columns": [
+      "order_id",
+      "quantity"
+    ],
+    "fingerprint": "8cb32767e51ca5a7926225e3a95349727352d8be5ddea5cda2fe2a4ebcc67397"
+  },
+  "3": {
+    "columns": [
+      "order_id",
+      "unit_price"
+    ],
+    "fingerprint": "19d9a3a25a12b12620ecc396504d145b9344bb02c4a5958051c09ff4efaad52f"
+  },
+  "4": {
+    "columns": [
+      "order_id",
+      "register_id",
+      "ordered_at"
+    ],
+    "fingerprint": "1d779cc250ca0f81bd73be30bcf10b590d0271a75aa18592d8cbf922db5ac29c"
+  },
+  "5": {
+    "columns": [
+      "order_id",
+      "item_id"
+    ],
+    "fingerprint": "6f079b06619788321d8f0cf9f82ac0913c87966db33bcec341fc58a4e77d8ae6"
+  }
+}

@@ -1,0 +1,11 @@
+-- Case 3: The 100x Week (detective)
+--
+-- SYMPTOM: "Revenue for one week looks about 100x too high."
+--
+-- No hints from here on. Investigate first: try a few exploration queries with
+-- run_query.py, form a hypothesis, then write one query that catches the problem.
+--
+-- RETURN every affected order, with exactly these columns:
+--   order_id, unit_price
+--
+-- Write your query below this line, then run: python check.py 3

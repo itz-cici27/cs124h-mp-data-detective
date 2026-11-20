@@ -1,0 +1,9 @@
+-- Case 4: Night Owls (detective)
+--
+-- SYMPTOM: "Our sales-by-hour chart has a bump in the middle of the night,
+-- but we close at 10 PM."
+--
+-- RETURN every order logged when the café was closed, with exactly these columns:
+--   order_id, register_id, ordered_at
+--
+-- Write your query below this line, then run: python check.py 4

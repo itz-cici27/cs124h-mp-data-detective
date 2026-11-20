@@ -1,0 +1,8 @@
+-- Case 5: Ghost Items (detective)
+--
+-- SYMPTOM: "Sales by menu item don't add up to total revenue."
+--
+-- RETURN every order whose item can't be found on the menu, with exactly these columns:
+--   order_id, item_id
+--
+-- Write your query below this line, then run: python check.py 5
